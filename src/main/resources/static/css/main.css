@@ -1,0 +1,16 @@
+.up-down-limit {
+    background-color: green;
+    width: 100%;
+    height: 20%;
+}
+
+.menu {
+    background-color: green;
+    width: 33%;
+    height: 60%;
+}
+
+.content {
+    width: 67%;
+    height: 60%;
+}

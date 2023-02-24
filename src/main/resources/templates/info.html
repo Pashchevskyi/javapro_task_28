@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <meta charset="UTF-8">
+        <title th:text="#{info.header}"></title>
+        <link rel="stylesheet" th:href="@{/css/main.css}">
+    </head>
+    <body>
+        <header th:insert="fragments/header"></header>
+        <menu type="list" class="menu" th:insert="fragments/menu"></menu>
+        <section class="content">
+            <table>
+                <tr>
+                    <th th:text="#{info.section}"></th>
+                    <td th:text="${current_milliseconds}"</td>
+                </tr>
+            </table>
+        </section>
+        <footer th:insert="fragments/footer"></footer>
+    </body>
+</html>
